@@ -20,17 +20,32 @@
 		</div>
 	</nav>
 
+    <h1>Hello World!!</h1>
     <section id="landing">
     	<h2>Welcome to Centro Escolar University</h2>
         <h3 id="ceu-motto">Ciencia y Virtud</h3>
 
         <img src="https://place-puppy.com/450x450" alt="imagePuppy">
 
-        <ol>
-        	<li>Day Classes</li>
-        	<li>Night Classes</li>
-        	<li>Hybrid Classes</li>
+        <ol id="ceu-learning-list">
+        	<li class="offering-item">Day Classes</li>
+        	<li class="offering-item">Night Classes</li>
+        	<li class="offering-item">Hybrid Classes</li>
         </ol>
+    </section>
+    <section id="register">
+    	<h2>Register</h2>
+    	<form>
+    		<label for="first-name">First Name:</label>
+    		<input id="first-name" type="text" required autocomplete>
+    		<label for="last-name">Last Name:</label>
+    		<input id="last-name" type="text" required autocomplete>
+    		<label for="email">Email:</label>
+    		<input for="email" type="text" required autocomplete>
+
+    		<button type="submit">Enroll Now!</button>
+    	</form>
+        <a href="#top">Back to Top</a>
     </section>
 </body>
 </html>
