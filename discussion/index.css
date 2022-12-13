@@ -61,3 +61,12 @@ form{
 	position: relative;
 	left: 37.25%;
 }
+button{
+	color: white;
+	background-color: #cf0053;
+	border: 0px;
+	border-radius: 15px;
+}
+section > form > label{
+	color: rgb(0,0,128);
+}
