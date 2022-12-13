@@ -1,0 +1,60 @@
+*{
+	font-family: "Book Antiqua", monospace;
+	font-size: 20px;
+
+	margin:0;
+	padding:0;
+}
+body{
+	background-color:gold;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+nav{
+	background-color: pink;
+	letter-spacing: 0.5px;
+}
+h1{
+	color:indigo;
+	text-align: center;
+	font-size:2rem;
+}
+section{
+	height: 100vh;
+	text-align:center;
+}
+h2 {
+	font-size:1.5rem;
+}
+ol{
+	list-style-type:none;
+}
+
+.offering-item{
+	text-transform: uppercase;
+}
+
+#product-of-the-day + img{
+	height: 300px;
+	width: 300px;
+	border-radius: 200px;
+}
+
+#weekly-products li{
+	color: #cf0053;
+}
+h2 ~ a{
+	text-decoration: none;
+}
+table{
+	text-align: center;
+	background-color: white;
+	border: 2px solid blue;
+	position: relative;
+	left: 22%;
+}
+section > table {
+	color: navy blue;
+}
